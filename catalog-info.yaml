@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "backstage-template-demo"
+  description: "created from backstage"
+  annotations:
+    github.com/project-slug: "kiranpatel11/backstage-template-demo"
+    backstage.io/techdocs-ref: github:https://github.com/kiranpatel11/backstage-template-demo
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "kiran"
